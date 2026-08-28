@@ -1,0 +1,13 @@
+# Local Python virtual environments
+/baseline/
+/.venv/
+/venv/
+
+# Python-generated local files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Development split (not needed in Git)
+/dev/
+/dev.csv
