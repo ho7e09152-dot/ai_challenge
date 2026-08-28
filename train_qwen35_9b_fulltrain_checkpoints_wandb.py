@@ -1,4 +1,4 @@
-"""Qwen3.5-4B LoRA full-train script for Korean multiple-choice VQA.
+"""Qwen3.5-9B LoRA full-train script for Korean multiple-choice VQA.
 
 Strategy used by this version
 -----------------------------
@@ -23,9 +23,9 @@ Example
     cp .env.sample .env
     # Fill WANDB_API_KEY in .env if you want online W&B logging.
 
-    python train_qwen35_4b_fulltrain_checkpoints_wandb.py \
+    python train_qwen35_9b_fulltrain_checkpoints_wandb.py \
         --data-root . \
-        --output-dir outputs/qwen35_4b_fulltrain
+        --output-dir outputs/qwen35_9b_fulltrain
 
 Notes
 -----
@@ -54,7 +54,6 @@ from PIL import Image
 from torch.optim import AdamW
 from torch.utils.data import DataLoader, Dataset
 from tqdm.auto import tqdm
-import torch.nn as nn
 
 try:
     from dotenv import load_dotenv
@@ -86,7 +85,7 @@ from peft import (
 )
 
 
-MODEL_ID = "Qwen/Qwen3.5-4B"
+MODEL_ID = "Qwen/Qwen3.5-9B"
 LABELS = ("a", "b", "c", "d")
 TRAIN_COLUMNS = ("id", "path", "question", "a", "b", "c", "d", "answer")
 TEST_COLUMNS = ("id", "path", "question", "a", "b", "c", "d")
@@ -100,7 +99,7 @@ SYSTEM_PROMPT = (
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Full-train Qwen3.5-4B LoRA with half-epoch checkpoints, "
+            "Full-train Qwen3.5-9B LoRA with half-epoch checkpoints, "
             "multi-checkpoint inference, soft-voting ensemble, and W&B logging."
         )
     )
@@ -114,7 +113,7 @@ def parse_args() -> argparse.Namespace:
         "--sample-submission", type=str, default="sample_submission.csv"
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path("outputs/qwen35_4b_fulltrain")
+        "--output-dir", type=Path, default=Path("outputs/qwen35_9b_fulltrain")
     )
     parser.add_argument("--env-file", type=Path, default=Path(".env"))
 
@@ -127,7 +126,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--train-batch-size", type=int, default=2)
     parser.add_argument("--eval-batch-size", type=int, default=4)
     parser.add_argument("--grad-accum-steps", type=int, default=8)
-    parser.add_argument("--learning-rate", type=float, default=5e-5)
+    parser.add_argument("--learning-rate", type=float, default=3e-5)
     parser.add_argument("--weight-decay", type=float, default=0.01)
     parser.add_argument("--warmup-ratio", type=float, default=0.05)
     parser.add_argument("--max-grad-norm", type=float, default=1.0)
@@ -154,7 +153,7 @@ def parse_args() -> argparse.Namespace:
         "--load-in-4bit",
         action=argparse.BooleanOptionalAction,
         default=False,
-        help="Use NF4 QLoRA. BF16 LoRA is the default for an A6000 48GB.",
+        help="Use NF4 QLoRA. BF16 LoRA is the default and recommended for an A100 80GB.",
     )
     parser.add_argument(
         "--use-augmentation",

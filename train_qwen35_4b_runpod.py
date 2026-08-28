@@ -45,6 +45,7 @@ from sklearn.model_selection import train_test_split
 from torch.optim import AdamW
 from torch.utils.data import DataLoader, Dataset
 from tqdm.auto import tqdm
+import torch.nn as nn
 
 try:
     from transformers import (
