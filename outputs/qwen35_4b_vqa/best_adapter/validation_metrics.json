@@ -1,9 +1,0 @@
-{
-  "epoch": 2,
-  "train_loss": 0.025730788898959484,
-  "accuracy": 0.937007874015748,
-  "correct": 476.0,
-  "total": 508.0,
-  "invalid_predictions": 0.0,
-  "elapsed_minutes": 284.65671026706696
-}
