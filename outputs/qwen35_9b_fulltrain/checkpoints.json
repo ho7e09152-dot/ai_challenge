@@ -1,0 +1,30 @@
+[
+  {
+    "epoch_progress": 0.5,
+    "global_update": 318,
+    "learning_rate": 2.6815619599765775e-05,
+    "elapsed_minutes": 51.39425756931305,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/checkpoints/epoch_0.5"
+  },
+  {
+    "epoch_progress": 1.0,
+    "global_update": 635,
+    "learning_rate": 1.6228450730882652e-05,
+    "elapsed_minutes": 103.39976745446523,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/checkpoints/epoch_1.0"
+  },
+  {
+    "epoch_progress": 1.5,
+    "global_update": 952,
+    "learning_rate": 4.851363714193265e-06,
+    "elapsed_minutes": 156.82295763889948,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/checkpoints/epoch_1.5"
+  },
+  {
+    "epoch_progress": 2.0,
+    "global_update": 1270,
+    "learning_rate": 0.0,
+    "elapsed_minutes": 208.97816138267518,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/checkpoints/epoch_2.0"
+  }
+]

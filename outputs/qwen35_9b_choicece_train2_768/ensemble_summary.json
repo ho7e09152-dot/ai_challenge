@@ -1,0 +1,7 @@
+{
+  "checkpoint_count": 4,
+  "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_choicece_train2_768/submissions/submission_ensemble_soft.csv",
+  "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_choicece_train2_768/probabilities/probabilities_ensemble_soft.csv",
+  "disagreement_count": 182,
+  "disagreement_ratio": 0.03586913677571935
+}

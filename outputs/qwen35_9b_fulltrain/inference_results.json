@@ -1,0 +1,50 @@
+[
+  {
+    "epoch_progress": 0.5,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions/submission_epoch_0.5.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities/probabilities_epoch_0.5.csv",
+    "inference_minutes": 9.669332249959309,
+    "prediction_counts": {
+      "a": 1259,
+      "b": 1257,
+      "c": 1285,
+      "d": 1273
+    }
+  },
+  {
+    "epoch_progress": 1.0,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions/submission_epoch_1.0.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities/probabilities_epoch_1.0.csv",
+    "inference_minutes": 9.637946005662283,
+    "prediction_counts": {
+      "a": 1262,
+      "b": 1264,
+      "c": 1254,
+      "d": 1294
+    }
+  },
+  {
+    "epoch_progress": 1.5,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions/submission_epoch_1.5.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities/probabilities_epoch_1.5.csv",
+    "inference_minutes": 9.647562460104625,
+    "prediction_counts": {
+      "a": 1279,
+      "b": 1269,
+      "c": 1275,
+      "d": 1251
+    }
+  },
+  {
+    "epoch_progress": 2.0,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions/submission_epoch_2.0.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities/probabilities_epoch_2.0.csv",
+    "inference_minutes": 9.642512186368306,
+    "prediction_counts": {
+      "a": 1275,
+      "b": 1261,
+      "c": 1275,
+      "d": 1263
+    }
+  }
+]

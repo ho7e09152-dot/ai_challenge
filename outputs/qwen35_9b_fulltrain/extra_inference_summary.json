@@ -1,0 +1,45 @@
+{
+  "model_id": "Qwen/Qwen3.5-9B",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "experiment_1_highres": {
+    "checkpoint": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/checkpoints/epoch_1.5",
+    "max_pixels": 589824,
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities_extra/probabilities_epoch_1.5_res768.csv",
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions_extra/submission_epoch_1.5_res768.csv"
+  },
+  "experiment_2_multires_soft_vote": {
+    "max_pixels": [
+      409600,
+      589824
+    ],
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities_extra/probabilities_epoch_1.5_res640_768_soft.csv",
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions_extra/submission_epoch_1.5_res640_768_soft.csv",
+    "resolution_prediction_disagreement_count": 143,
+    "changed_vs_640_count": 73,
+    "changed_vs_768_count": 70
+  },
+  "experiment_3_lora_weight_interpolation": [
+    {
+      "weights": {
+        "epoch_1.0": 0.1,
+        "epoch_1.5": 0.9
+      },
+      "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities_extra/probabilities_interp_e1.0_e1.5_w10_90_res640.csv",
+      "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions_extra/submission_interp_e1.0_e1.5_w10_90_res640.csv",
+      "num_predictions": 5074
+    },
+    {
+      "weights": {
+        "epoch_1.0": 0.25,
+        "epoch_1.5": 0.75
+      },
+      "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/probabilities_extra/probabilities_interp_e1.0_e1.5_w25_75_res640.csv",
+      "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_fulltrain/submissions_extra/submission_interp_e1.0_e1.5_w25_75_res640.csv",
+      "num_predictions": 5074
+    }
+  ]
+}
