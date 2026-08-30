@@ -13,5 +13,3 @@ __pycache__/
 /dev.csv
 
 .env
-outputs/
-outputs/

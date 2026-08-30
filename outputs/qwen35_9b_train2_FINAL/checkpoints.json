@@ -1,0 +1,164 @@
+[
+  {
+    "requested_epoch": 0.5,
+    "global_update": 373,
+    "current_data_epoch": 0.5,
+    "baseline_equivalent_epoch": 0.5874015748031496,
+    "learning_rate": 2.682743232357982e-05,
+    "elapsed_minutes": 65.08761849800746,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_0.50_update_0373"
+  },
+  {
+    "requested_epoch": 0.75,
+    "global_update": 560,
+    "current_data_epoch": 0.7506702412868632,
+    "baseline_equivalent_epoch": 0.8818897637795275,
+    "learning_rate": 2.2113046198858483e-05,
+    "elapsed_minutes": 97.13964386781056,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_0.75_update_0560"
+  },
+  {
+    "requested_epoch": 1.0,
+    "global_update": 746,
+    "current_data_epoch": 1.0,
+    "baseline_equivalent_epoch": 1.1748031496062992,
+    "learning_rate": 1.6228231204585758e-05,
+    "elapsed_minutes": 128.99012035528818,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.00_update_0746"
+  },
+  {
+    "requested_epoch": 1.1,
+    "global_update": 821,
+    "current_data_epoch": 1.1005361930294906,
+    "baseline_equivalent_epoch": 1.2929133858267716,
+    "learning_rate": 1.3738650786860194e-05,
+    "elapsed_minutes": 142.16382787624994,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.10_update_0821"
+  },
+  {
+    "requested_epoch": 1.2,
+    "global_update": 895,
+    "current_data_epoch": 1.1997319034852547,
+    "baseline_equivalent_epoch": 1.4094488188976377,
+    "learning_rate": 1.1316022152959905e-05,
+    "elapsed_minutes": 155.32589077949524,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.20_update_0895"
+  },
+  {
+    "requested_epoch": 1.3,
+    "global_update": 970,
+    "current_data_epoch": 1.3002680965147453,
+    "baseline_equivalent_epoch": 1.5275590551181102,
+    "learning_rate": 8.961757119273965e-06,
+    "elapsed_minutes": 168.39526982307433,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.30_update_0970"
+  },
+  {
+    "requested_epoch": 1.35,
+    "global_update": 1007,
+    "current_data_epoch": 1.3498659517426272,
+    "baseline_equivalent_epoch": 1.5858267716535432,
+    "learning_rate": 7.857712747197228e-06,
+    "elapsed_minutes": 174.7732986887296,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.35_update_1007"
+  },
+  {
+    "requested_epoch": 1.4,
+    "global_update": 1044,
+    "current_data_epoch": 1.3994638069705094,
+    "baseline_equivalent_epoch": 1.6440944881889763,
+    "learning_rate": 6.801635626873204e-06,
+    "elapsed_minutes": 181.2569144686063,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.40_update_1044"
+  },
+  {
+    "requested_epoch": 1.45,
+    "global_update": 1082,
+    "current_data_epoch": 1.450402144772118,
+    "baseline_equivalent_epoch": 1.7039370078740157,
+    "learning_rate": 5.774391909953076e-06,
+    "elapsed_minutes": 188.0492919365565,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.45_update_1082"
+  },
+  {
+    "requested_epoch": 1.5,
+    "global_update": 1119,
+    "current_data_epoch": 1.5,
+    "baseline_equivalent_epoch": 1.7622047244094488,
+    "learning_rate": 4.8369165129077694e-06,
+    "elapsed_minutes": 194.7631914059321,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.50_update_1119"
+  },
+  {
+    "requested_epoch": 1.55,
+    "global_update": 1156,
+    "current_data_epoch": 1.549597855227882,
+    "baseline_equivalent_epoch": 1.8204724409448818,
+    "learning_rate": 3.967695887331913e-06,
+    "elapsed_minutes": 201.47808902263642,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.55_update_1156"
+  },
+  {
+    "requested_epoch": 1.6,
+    "global_update": 1194,
+    "current_data_epoch": 1.6005361930294906,
+    "baseline_equivalent_epoch": 1.8803149606299212,
+    "learning_rate": 3.1521572969494233e-06,
+    "elapsed_minutes": 208.3101828455925,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.60_update_1194"
+  },
+  {
+    "requested_epoch": 1.65,
+    "global_update": 1231,
+    "current_data_epoch": 1.6501340482573728,
+    "baseline_equivalent_epoch": 1.9385826771653543,
+    "learning_rate": 2.438677553480078e-06,
+    "elapsed_minutes": 214.92143707672756,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.65_update_1231"
+  },
+  {
+    "requested_epoch": 1.7,
+    "global_update": 1268,
+    "current_data_epoch": 1.6997319034852547,
+    "baseline_equivalent_epoch": 1.9968503937007873,
+    "learning_rate": 1.8095590369976262e-06,
+    "elapsed_minutes": 221.4929332613945,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.70_update_1268"
+  },
+  {
+    "requested_epoch": 1.75,
+    "global_update": 1306,
+    "current_data_epoch": 1.7506702412868633,
+    "baseline_equivalent_epoch": 2.056692913385827,
+    "learning_rate": 1.2556828014898219e-06,
+    "elapsed_minutes": 228.16285013755163,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.75_update_1306"
+  },
+  {
+    "requested_epoch": 1.8,
+    "global_update": 1343,
+    "current_data_epoch": 1.8002680965147453,
+    "baseline_equivalent_epoch": 2.11496062992126,
+    "learning_rate": 8.09904148566179e-07,
+    "elapsed_minutes": 234.7125762462616,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.80_update_1343"
+  },
+  {
+    "requested_epoch": 1.9,
+    "global_update": 1417,
+    "current_data_epoch": 1.8994638069705094,
+    "baseline_equivalent_epoch": 2.231496062992126,
+    "learning_rate": 2.0660060873454066e-07,
+    "elapsed_minutes": 248.06209100484847,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.90_update_1417"
+  },
+  {
+    "requested_epoch": 2.0,
+    "global_update": 1492,
+    "current_data_epoch": 2.0,
+    "baseline_equivalent_epoch": 2.3496062992125983,
+    "learning_rate": 0.0,
+    "elapsed_minutes": 261.6258856972059,
+    "checkpoint_dir": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_2.00_update_1492"
+  }
+]
