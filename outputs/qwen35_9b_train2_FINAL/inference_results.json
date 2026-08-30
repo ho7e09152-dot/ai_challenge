@@ -1,0 +1,74 @@
+[
+  {
+    "requested_epoch": 0.5,
+    "global_update": 373,
+    "current_data_epoch": 0.5,
+    "baseline_equivalent_epoch": 0.5874015748031496,
+    "inference_side": 640,
+    "inference_max_pixels": 409600,
+    "inference_batch_size": 4,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_0.50_update_0373.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_0.50_update_0373.csv",
+    "inference_minutes": 10.346419795354207,
+    "prediction_counts": {
+      "a": 1278,
+      "b": 1240,
+      "c": 1270,
+      "d": 1286
+    }
+  },
+  {
+    "requested_epoch": 1.0,
+    "global_update": 746,
+    "current_data_epoch": 1.0,
+    "baseline_equivalent_epoch": 1.1748031496062992,
+    "inference_side": 640,
+    "inference_max_pixels": 409600,
+    "inference_batch_size": 4,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_1.00_update_0746.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_1.00_update_0746.csv",
+    "inference_minutes": 10.339871764183044,
+    "prediction_counts": {
+      "a": 1290,
+      "b": 1262,
+      "c": 1279,
+      "d": 1243
+    }
+  },
+  {
+    "requested_epoch": 1.5,
+    "global_update": 1119,
+    "current_data_epoch": 1.5,
+    "baseline_equivalent_epoch": 1.7622047244094488,
+    "inference_side": 640,
+    "inference_max_pixels": 409600,
+    "inference_batch_size": 4,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_1.50_update_1119.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_1.50_update_1119.csv",
+    "inference_minutes": 10.343397907416026,
+    "prediction_counts": {
+      "a": 1264,
+      "b": 1252,
+      "c": 1290,
+      "d": 1268
+    }
+  },
+  {
+    "requested_epoch": 2.0,
+    "global_update": 1492,
+    "current_data_epoch": 2.0,
+    "baseline_equivalent_epoch": 2.3496062992125983,
+    "inference_side": 640,
+    "inference_max_pixels": 409600,
+    "inference_batch_size": 4,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_2.00_update_1492.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_2.00_update_1492.csv",
+    "inference_minutes": 10.340424005190531,
+    "prediction_counts": {
+      "a": 1246,
+      "b": 1254,
+      "c": 1290,
+      "d": 1284
+    }
+  }
+]

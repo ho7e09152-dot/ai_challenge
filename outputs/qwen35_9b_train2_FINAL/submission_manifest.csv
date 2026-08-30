@@ -1,0 +1,5 @@
+﻿kind,requested_epoch,actual_epoch,update,inference_side,max_pixels,inference_batch_size,submission_path,probability_path
+checkpoint,0.5,0.5,373,640,409600,4,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_0.50_update_0373.csv,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_0.50_update_0373.csv
+checkpoint,1.0,1.0,746,640,409600,4,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_1.00_update_0746.csv,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_1.00_update_0746.csv
+checkpoint,1.5,1.5,1119,640,409600,4,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_1.50_update_1119.csv,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_1.50_update_1119.csv
+checkpoint,2.0,2.0,1492,640,409600,4,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_2.00_update_1492.csv,/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_2.00_update_1492.csv

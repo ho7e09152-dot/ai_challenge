@@ -17,3 +17,8 @@ config: {'data_root': '/workspace/ai_challenge', 'train_csv': 'train.csv', 'aug_
 2026-08-30 02:01:38,894 INFO    MainThread:3110 [wandb_run.py:_redirect():2464] Wrapping output streams.
 2026-08-30 02:01:38,895 INFO    MainThread:3110 [wandb_run.py:_redirect():2487] Redirects installed.
 2026-08-30 02:01:38,916 INFO    MainThread:3110 [wandb_init.py:init():1019] run started, returning control to user process
+2026-08-30 07:04:46,112 INFO    MainThread:3110 [wandb_run.py:_finish():2316] finishing run lhc068899-personal/qwen35-vqa/vm4uy1n0
+2026-08-30 07:04:46,113 INFO    MainThread:3110 [wandb_run.py:_atexit_cleanup():2512] got exitcode: 0
+2026-08-30 07:04:46,114 INFO    MainThread:3110 [wandb_run.py:_restore():2494] restore
+2026-08-30 07:04:46,115 INFO    MainThread:3110 [wandb_run.py:_restore():2500] restore done
+2026-08-30 07:04:47,220 INFO    MainThread:3110 [wandb_run.py:_footer_sync_info():3917] logging synced files

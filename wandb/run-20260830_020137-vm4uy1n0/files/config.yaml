@@ -1,0 +1,255 @@
+_wandb:
+    value:
+        cli_version: 0.29.0
+        e:
+            c3z2gcwnbni159gtw33lin8x74yb25av:
+                codePath: train_qwen35_9b_train2_FINAL_RICH_4SUB.py
+                codePathLocal: train_qwen35_9b_train2_FINAL_RICH_4SUB.py
+                cpu_count: 48
+                cpu_count_logical: 96
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "21474836480"
+                        used: "1108647936"
+                email: lhc068899@gmail.com
+                executable: /workspace/.venv/bin/python
+                git:
+                    commit: 4daaf7434abb3fbe60338e671f1938c8f0e3efac
+                    remote: https://github.com/ho7e09152-dot/ai_challenge.git
+                gpu: NVIDIA A100 80GB PCIe
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100 80GB PCIe
+                      uuid: GPU-5f66530d-d676-9e55-76f0-5c158f1cf9df
+                host: d8a152ad3816
+                memory:
+                    total: "1081801297920"
+                os: Linux-6.8.0-100-generic-x86_64-with-glibc2.35
+                program: /workspace/ai_challenge/train_qwen35_9b_train2_FINAL_RICH_4SUB.py
+                python: CPython 3.11.10
+                root: /workspace/ai_challenge
+                startedAt: "2026-08-30T02:01:37.346471Z"
+                writerId: c3z2gcwnbni159gtw33lin8x74yb25av
+        m: []
+        python_version: 3.11.10
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 71
+                - 98
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 71
+                - 98
+            "3":
+                - 2
+                - 13
+                - 15
+                - 16
+                - 62
+                - 61
+            "4": 3.11.10
+            "5": 0.29.0
+            "6": 5.16.0.dev0
+            "12": 0.29.0
+            "13": linux-x86_64
+answer_distribution_extra:
+    value:
+        a: 393
+        b: 398
+        c: 348
+        d: 643
+answer_distribution_original:
+    value:
+        a: 1263
+        b: 1265
+        c: 1311
+        d: 1234
+answer_distribution_synthetic:
+    value:
+        a: 1223
+        b: 1303
+        c: 1261
+        d: 1286
+answer_distribution_total:
+    value:
+        a: 2879
+        b: 2966
+        c: 2920
+        d: 3163
+aug_csv:
+    value: train_aug.csv
+baseline_updates_per_epoch:
+    value: 635
+check_all_images:
+    value: true
+checkpoint_epochs:
+    value:
+        - 0.5
+        - 0.75
+        - 1
+        - 1.1
+        - 1.2
+        - 1.3
+        - 1.35
+        - 1.4
+        - 1.45
+        - 1.5
+        - 1.55
+        - 1.6
+        - 1.65
+        - 1.7
+        - 1.75
+        - 1.8
+        - 1.9
+        - 2
+checkpoint_target_map:
+    value:
+        "373": 0.5
+        "560": 0.75
+        "746": 1
+        "821": 1.1
+        "895": 1.2
+        "970": 1.3
+        "1007": 1.35
+        "1044": 1.4
+        "1082": 1.45
+        "1119": 1.5
+        "1156": 1.55
+        "1194": 1.6
+        "1231": 1.65
+        "1268": 1.7
+        "1306": 1.75
+        "1343": 1.8
+        "1417": 1.9
+        "1492": 2
+cross_source_duplicates_removed:
+    value: 0
+current_updates_per_epoch:
+    value: 746
+data_check_only:
+    value: false
+data_root:
+    value: /workspace/ai_challenge
+effective_batch_size:
+    value: 16
+env_file:
+    value: .env
+epochs:
+    value: 2
+eval_batch_size:
+    value: 4
+extra_image_dir:
+    value: train2
+extra_rows_raw:
+    value: 1782
+extra_rows_unique:
+    value: 1782
+extra_train_csv:
+    value: train2_aug.csv
+extra_unique_images:
+    value: 891
+gpu:
+    value: NVIDIA A100 80GB PCIe
+grad_accum_steps:
+    value: 8
+inference_sides:
+    value:
+        - 640
+learning_rate:
+    value: 3e-05
+load_in_4bit:
+    value: false
+log_every:
+    value: 20
+lora_alpha:
+    value: 32
+lora_dropout:
+    value: 0.05
+lora_precision:
+    value:
+        peft_version: 0.20.0
+        trainable_dtype_numel_after:
+            torch.float32: 51265024
+        trainable_dtype_numel_before:
+            torch.float32: 51265024
+        upcast_parameter_numel: 0
+        upcast_parameter_tensors: 0
+lora_r:
+    value: 16
+max_grad_norm:
+    value: 1
+max_pixels:
+    value: 409600
+min_pixels:
+    value: 65536
+model_id:
+    value: Qwen/Qwen3.5-9B
+num_workers:
+    value: 2
+original_rows:
+    value: 5073
+output_dir:
+    value: /workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL
+run_inference:
+    value: true
+sample_submission:
+    value: sample_submission.csv
+seed:
+    value: 42
+submission_epochs:
+    value:
+        - 0.5
+        - 1
+        - 1.5
+        - 2
+synthetic_rows:
+    value: 5073
+system_prompt:
+    value: 'You are a visual multiple-choice question answering assistant. Inspect the image and answer using exactly one lowercase letter: a, b, c, or d. Do not explain your answer.'
+test_csv:
+    value: test.csv
+total_train_rows:
+    value: 11928
+total_unique_image_paths:
+    value: 5964
+total_updates:
+    value: 1492
+train_batch_size:
+    value: 2
+train_csv:
+    value: train.csv
+training_epochs:
+    value: 2
+training_max_pixels:
+    value: 409600
+training_objective:
+    value: assistant-only normal LM SFT (proven baseline)
+use_augmentation:
+    value: true
+use_extra_data:
+    value: true
+vram_gib:
+    value: 79.249755859375
+wandb:
+    value: true
+wandb_project:
+    value: qwen35-vqa
+wandb_run_name:
+    value: null
+warmup_ratio:
+    value: 0.05
+warmup_steps:
+    value: 74
+weight_decay:
+    value: 0.01
