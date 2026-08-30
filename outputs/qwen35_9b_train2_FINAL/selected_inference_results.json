@@ -1,0 +1,20 @@
+[
+  {
+    "requested_epoch": 1.0,
+    "global_update": 746,
+    "current_data_epoch": 1.0,
+    "baseline_equivalent_epoch": 1.1748031496062992,
+    "inference_side": 640,
+    "inference_max_pixels": 409600,
+    "inference_batch_size": 4,
+    "submission_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/submissions/r640/submission_epoch_1.00_update_0746.csv",
+    "probability_path": "/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/probabilities/r640/probabilities_epoch_1.00_update_0746.csv",
+    "inference_minutes": 10.31424239873886,
+    "prediction_counts": {
+      "a": 1290,
+      "b": 1262,
+      "c": 1279,
+      "d": 1243
+    }
+  }
+]

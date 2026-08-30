@@ -569,9 +569,16 @@ def save_checkpoint(
 def load_raw_adapter_state(path: Path) -> dict[str, torch.Tensor]:
     try:
         return torch.load(path, map_location="cpu", weights_only=True)
-    except TypeError:
-        # Compatibility with older PyTorch versions.
-        return torch.load(path, map_location="cpu")
+    except Exception as exc:
+        print(
+            f"weights_only=True failed ({type(exc).__name__}: {exc}); "
+            "retrying trusted local checkpoint with weights_only=False"
+        )
+        return torch.load(
+            path,
+            map_location="cpu",
+            weights_only=False,
+        )
 
 
 def restore_checkpoint(model: Any, checkpoint_dir: Path) -> None:
