@@ -1,0 +1,40 @@
+{
+  "os":  "Linux-6.8.0-100-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.11.10",
+  "startedAt":  "2026-08-30T02:01:37.346471Z",
+  "program":  "/workspace/ai_challenge/train_qwen35_9b_train2_FINAL_RICH_4SUB.py",
+  "codePath":  "train_qwen35_9b_train2_FINAL_RICH_4SUB.py",
+  "codePathLocal":  "train_qwen35_9b_train2_FINAL_RICH_4SUB.py",
+  "git":  {
+    "remote":  "https://github.com/ho7e09152-dot/ai_challenge.git",
+    "commit":  "4daaf7434abb3fbe60338e671f1938c8f0e3efac"
+  },
+  "email":  "lhc068899@gmail.com",
+  "root":  "/workspace/ai_challenge",
+  "host":  "d8a152ad3816",
+  "executable":  "/workspace/.venv/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  96,
+  "gpu":  "NVIDIA A100 80GB PCIe",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "21474836480",
+      "used":  "1108647936"
+    }
+  },
+  "memory":  {
+    "total":  "1081801297920"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-5f66530d-d676-9e55-76f0-5c158f1cf9df"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "c3z2gcwnbni159gtw33lin8x74yb25av"
+}

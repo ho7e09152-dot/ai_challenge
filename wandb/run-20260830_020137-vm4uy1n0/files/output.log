@@ -1,0 +1,38 @@
+[32m✓[0m W&B enabled · project='qwen35-vqa' · mode='online' · run='qwen35-4b-fulltrain-2ep'
+[32m╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[32m│[0m [1;32mTraining start[0m                                                                                                                                        [32m│[0m
+[32m│[0m NO validation · NO TTA · assistant-only LM SFT · 640² training budget                                                                                 [32m│[0m
+[32m│[0m Cosine schedule spans the full actual merged dataset.                                                                                                 [32m│[0m
+[32m╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[0m
+train pass 1:   0%|[36m                                                                                                            [0m| 0/5964 [00:00<?, ?it/s][0m[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+train pass 1: 100%|[36m██████████████████████████████████████████████████████████[0m| 5964/5964 [2:09:04<00:00,  1.30s/it, base_ep=1.165, cur_ep=0.992, loss=0.0839, lr=1.64e-05][0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_0.50_update_0373[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_0.75_update_0560[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.00_update_0746[0m
+train pass 2: 100%|[36m█████████████████████████████████████████████████████████▉[0m| 5963/5964 [2:12:36<00:01,  1.33s/it, base_ep=2.331, cur_ep=1.984, loss=0.0461, lr=5.30e-09][0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.10_update_0821[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.20_update_0895[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.30_update_0970[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.35_update_1007[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.40_update_1044[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.45_update_1082[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.50_update_1119[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.55_update_1156[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.60_update_1194[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.65_update_1231[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.70_update_1268[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.75_update_1306[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.80_update_1343[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_1.90_update_1417[0m
+[35m◆[0m Saved checkpoint → [1m/workspace/ai_challenge/outputs/qwen35_9b_train2_FINAL/checkpoints/epoch_2.00_update_1492[0m
+[32m✓[0m Training complete · 261.7 min
+[3m             Automatic Submission Plan              [0m
+[35m╭─────────────────────────┬────────────────────────╮[0m
+[35m│[0m[1;37m [0m[1;37mResolution             [0m[1;37m [0m[35m│[0m[36m [0m[36m640² pixel budget only[0m[36m [0m[35m│[0m
+[35m│[0m[1;37m [0m[1;37mCheckpoint epochs      [0m[1;37m [0m[35m│[0m[36m [0m[36m0.50, 1.00, 1.50, 2.00[0m[36m [0m[35m│[0m
+[35m│[0m[1;37m [0m[1;37mInference runs         [0m[1;37m [0m[35m│[0m[36m [0m[36m4                     [0m[36m [0m[35m│[0m
+[35m│[0m[1;37m [0m[1;37mDense checkpoints saved[0m[1;37m [0m[35m│[0m[36m [0m[36m18                    [0m[36m [0m[35m│[0m
+[35m╰─────────────────────────┴────────────────────────╯[0m
+[92m──────────────────────────────────────────────────────────────── [0m[1;35mepoch_0.50_update_0373[0m[92m ─────────────────────────────────────────────────────────────────[0m
+[35m◆[0m Restoring checkpoint · actual ep 0.500 · old-step-equivalent 0.587
+test epoch_0.50_update_0373 r640 bs4:  79%|████████████████████████████████████████████████████████████████████████                   | 1005/1269 [08:12<02:09,  2.04it/s]

@@ -1,0 +1,21 @@
+[32m✓[0m W&B enabled · project='qwen35-vqa' · mode='online' · run='qwen35-4b-fulltrain-2ep'
+[32m╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮[0m
+[32m│[0m [1;32mTraining start[0m                                                                                                                                        [32m│[0m
+[32m│[0m NO validation · NO TTA · assistant-only LM SFT · 640² training budget                                                                                 [32m│[0m
+[32m│[0m Cosine schedule spans the full actual merged dataset.                                                                                                 [32m│[0m
+[32m╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯[0m
+train pass 1:   0%|[36m                                                                                                            [0m| 0/5964 [00:00<?, ?it/s][0m[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+train pass 1:   6%|[36m██▍                                      [0m| 356/5964 [07:52<2:04:07,  1.33s/it, base_ep=0.063, cur_ep=0.054, loss=0.1450, lr=1.62e-05][0m
+Traceback (most recent call last):
+  File "/workspace/ai_challenge/train_qwen35_9b_train2_FINAL_RICH.py", line 1927, in <module>
+    main()
+  File "/workspace/ai_challenge/train_qwen35_9b_train2_FINAL_RICH.py", line 1534, in main
+    loss.backward()
+  File "/workspace/.venv/lib/python3.11/site-packages/torch/_tensor.py", line 631, in backward
+    torch.autograd.backward(
+  File "/workspace/.venv/lib/python3.11/site-packages/torch/autograd/__init__.py", line 379, in backward
+    _engine_run_backward(
+  File "/workspace/.venv/lib/python3.11/site-packages/torch/autograd/graph.py", line 882, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
